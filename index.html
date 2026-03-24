@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basireddy Reddy Babu Reddy | Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+
+    <!-- FontAwesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+    <!-- Custom Cursor Glow -->
+    <div id="cursor-glow"></div>
+
+    <nav class="navbar hidden-onload">
+        <a href="#home" class="logo">BR<span class="accent"></span></a>
+        <ul class="nav-links">
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#achievements">Achievements</a></li>
+            <li><a href="#certificates">Certificates</a></li>
+        </ul>
+        <a href="resume.pdf" download="Basireddy_Reddy_Babu_Reddy_CV.pdf" class="btn btn-primary"
+            style="padding: 0.5rem 1.2rem; font-size: 0.9rem; margin-left: 1rem;"><i class="fa-solid fa-download"></i>
+            Download Resume</a>
+    </nav>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="home" class="hero">
+            <div class="hero-content hidden-onload">
+                <p class="greeting">Hello, I'm</p>
+                <h1 class="name">Basireddy Reddy <br /> Babu Reddy</h1>
+                <h2 class="title">Software Developer & Tech Enthusiast</h2>
+                <p class="description">Building premium web applications and intelligent solutions with a passion for
+                    problem-solving and modern design.</p>
+                <div class="hero-cta">
+                    <a href="#projects" class="btn btn-primary">View Projects</a>
+                    <a href="#contact" class="btn btn-secondary"><i class="fa-solid fa-paper-plane"></i> Let's
+                        Connect</a>
+                </div>
+            </div>
+
+            <div class="hero-visual hidden-onload">
+                <img src="images/IMG_2821.jpg" alt="Profile Picture" class="profile-pic">
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="section reveal-on-scroll fade-in-up">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content"
+                style="max-width: 800px; line-height: 1.8; font-size: 1.1rem; color: var(--text-muted);">
+                <p>Hello! I am Basireddy Reddy Babu Reddy, a passionate Computer Science and Engineering student
+                    currently studying at Lovely Professional University. I specialize in building responsive web
+                    applications and scalable solutions. I have a strong foundation in modern frontend architectures and
+                    backend integrations.</p>
+                <p class="mt-4">When I am not coding, you can find me solving algorithmic challenges, exploring cloud
+                    technologies, or participating in collaborative projects and hackathons. My goal is to leverage my
+                    skills to build high-quality software that makes a meaningful impact.</p>
+                <div class="mt-4">
+                    <a href="resume.pdf" target="_blank" class="btn btn-secondary" style="border-radius: 30px;"><i
+                            class="fa-solid fa-file-pdf"></i> View Resume</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="section reveal-on-scroll fade-in-up">
+            <h2 class="section-title">My Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3><i class="fa-solid fa-code"></i> Languages</h3>
+                    <div class="skill-tags">
+                        <span class="tag"><i class="fa-brands fa-python"></i> Python</span>
+                        <span class="tag"><i class="fa-solid fa-file-code"></i> C++</span>
+                        <span class="tag"><i class="fa-brands fa-java"></i> Java</span>
+                        <span class="tag"><i class="fa-solid fa-bullseye"></i> Dart</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3><i class="fa-solid fa-layer-group"></i> Frameworks</h3>
+                    <div class="skill-tags">
+                        <span class="tag"><i class="fa-brands fa-node-js"></i> NodeJS</span>
+                        <span class="tag"><i class="fa-brands fa-react"></i> React</span>
+                        <span class="tag"><i class="fa-solid fa-table"></i> Pandas</span>
+                        <span class="tag"><i class="fa-brands fa-flutter"></i> Flutter</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3><i class="fa-solid fa-screwdriver-wrench"></i> Tools</h3>
+                    <div class="skill-tags">
+                        <span class="tag"><i class="fa-solid fa-database"></i> MySQL</span>
+                        <span class="tag"><i class="fa-solid fa-file-excel"></i> MS Excel</span>
+                        <span class="tag"><i class="fa-solid fa-chart-column"></i> Power BI</span>
+                        <span class="tag"><i class="fa-brands fa-github"></i> GitHub</span>
+                        <span class="tag"><i class="fa-solid fa-laptop-code"></i> VS Code</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3><i class="fa-regular fa-lightbulb"></i> Soft Skills</h3>
+                    <div class="skill-tags">
+                        <span class="tag"><i class="fa-solid fa-puzzle-piece"></i> Problem-Solving</span>
+                        <span class="tag"><i class="fa-solid fa-users"></i> Team Player</span>
+                        <span class="tag"><i class="fa-solid fa-arrows-spin"></i> Adaptability</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="section reveal-on-scroll fade-in-up">
+            <h2 class="section-title">Featured Projects</h2>
+            <div class="projects-grid">
+                <!-- Evertis -->
+                <div class="project-card">
+                    <img src="images/evertis_logo.webp" alt="Evertis App" class="project-image"
+                        style="width:100%; height:200px; object-fit:cover; border-radius:10px 10px 0 0;">
+                    <div class="project-content">
+                        <div class="project-header">
+                            <h3>Evertis – Waste Management Platform</h3>
+                            <span class="project-date">August 2025</span>
+                        </div>
+                        <p class="project-desc">Designed a mobile app to promote sustainable waste management with an
+                            integrated Gemini AI chatbot for real-time guidance.</p>
+                        <div class="project-tech">
+                            <span>Flutter</span><span>Dart</span><span>Gemini AI</span>
+                        </div>
+                        <a href="https://github.com/reddybabureddy" class="project-link" target="_blank">View Project <i
+                                class="fa-solid fa-arrow-right"></i></a>
+                    </div>
+                </div>
+
+                <!-- Kooli Hub -->
+                <div class="project-card">
+                    <img src="images/koolihub.png" alt="Kooli Hub" class="project-image"
+                        style="width:100%; height:200px; object-fit:cover; border-radius:10px 10px 0 0;">
+                    <div class="project-content">
+                        <div class="project-header">
+                            <h3>Kooli Hub</h3>
+                            <span class="project-date">April 2025</span>
+                        </div>
+                        <p class="project-desc">Architected a full-stack web application with secure authentication,
+                            optimized API responses, and interactive user interfaces.</p>
+                        <div class="project-tech">
+                            <span>React</span><span>Node.js</span><span>Express</span><span>MongoDB</span>
+                        </div>
+                        <a href="https://github.com/reddybabureddy" class="project-link" target="_blank">View Project <i
+                                class="fa-solid fa-arrow-right"></i></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Achievements Section -->
+        <section id="achievements" class="section reveal-on-scroll fade-in-up">
+            <h2 class="section-title">Achievements</h2>
+
+            <div class="timeline-container">
+                <div class="timeline-item">
+                    <div class="timeline-icon"><i class="fa-solid fa-medal"></i></div>
+                    <div class="timeline-content">
+                        <span class="timeline-date">September 2025</span>
+                        <h3>NCC Combined Annual Training Camp (CATC)</h3>
+                        <h4><i class="fa-solid fa-award"></i> Achievement</h4>
+                        <p>Gained military-style training focused on discipline, teamwork, leadership, and physical
+                            conditioning.</p>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-icon"><i class="fa-solid fa-laptop-code"></i></div>
+                    <div class="timeline-content">
+                        <span class="timeline-date">May 2025 - June 2025</span>
+                        <h3>Data Structures & Algorithms Training</h3>
+                        <h4><i class="fa-solid fa-chalkboard-user"></i> Cipher Schools</h4>
+                        <p>70-hour intensive training focusing on problem-solving. Developed Library Book Tracker using
+                            OOP.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Education Section -->
+        <section id="education" class="section reveal-on-scroll fade-in-up">
+            <h2 class="section-title">Education</h2>
+
+            <div class="timeline-container">
+                <div class="timeline-item">
+                    <div class="timeline-icon"><i class="fa-solid fa-user-graduate"></i></div>
+                    <div class="timeline-content">
+                        <div class="timeline-header-top">
+                            <span class="timeline-date">August 2023 - Present</span>
+                            <span class="timeline-score">CGPA: 6.58</span>
+                        </div>
+                        <h3>B.Tech in Computer Science and Engineering</h3>
+                        <h4><i class="fa-solid fa-building-columns"></i> Lovely Professional University, Punjab</h4>
+                        <p>Building a strong foundation in computer science principles and software
+                            engineering.</p>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-icon"><i class="fa-solid fa-school"></i></div>
+                    <div class="timeline-content">
+                        <div class="timeline-header-top">
+                            <span class="timeline-date">June 2022 - May 2023</span>
+                            <span class="timeline-score">Percentage: 93%</span>
+                        </div>
+                        <h3>Intermediate</h3>
+                        <h4><i class="fa-solid fa-building-columns"></i> Sri Chaitanya Jr Collage, Tirupati</h4>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-icon"><i class="fa-solid fa-book"></i></div>
+                    <div class="timeline-content">
+                        <div class="timeline-header-top">
+                            <span class="timeline-date">June 2020 - March 2021</span>
+                            <span class="timeline-score">Percentage: 100%</span>
+                        </div>
+                        <h3>Matriculation</h3>
+                        <h4><i class="fa-solid fa-building-columns"></i> Rainbow High School, Rayachoty</h4>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Certificates Section -->
+        <section id="certificates" class="section reveal-on-scroll fade-in-up">
+            <h2 class="section-title">Certifications</h2>
+            <div class="cert-grid">
+                <a href="https://drive.google.com/file/d/1db2jO6cPBDkOGWQg_KFaerWrJRQb1gbG/view?usp=drive_link"
+                    target="_blank" style="text-decoration: none;">
+                    <div class="cert-card">
+                        <i class="fa-solid fa-certificate cert-icon"></i>
+                        <h4>Build Generative AI Apps with No-Code</h4>
+                        <span>September 2025</span>
+                    </div>
+                </a>
+                <a href="https://drive.google.com/file/d/1gX-d8T1oNsaDEP5OHTJQ6u6oXJr7l5dF/view?usp=drive_link"
+                    target="_blank" style="text-decoration: none;">
+                    <div class="cert-card">
+                        <i class="fa-solid fa-cloud cert-icon"></i>
+                        <h4>Cloud Computing</h4>
+                        <span>April 2025</span>
+                    </div>
+                </a>
+                <a href="https://drive.google.com/file/d/1NEKUlURP2LjTp90-wHn3pOZvtIbKo73T/view?usp=drive_link"
+                    target="_blank" style="text-decoration: none;">
+                    <div class="cert-card">
+                        <i class="fa-brands fa-python cert-icon"></i>
+                        <h4>30+ Hours Python Industry Training</h4>
+                        <span>March 2024</span>
+                    </div>
+                </a>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="section reveal-on-scroll fade-in-up">
+            <div class="contact-box">
+                <h2 class="section-title">Let's Connect</h2>
+                <p>I am actively seeking software engineering roles and open to collaborative projects. Feel free to
+                    reach out for inquiries, networking, or simply to say hello—I'm looking forward to connecting with
+                    you!</p>
+                <div class="contact-info mt-4">
+                    <p><i class="fa-solid fa-envelope"></i> breddybabureddy@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i> +91 8688050716</p>
+                </div>
+                <div class="mt-4">
+                    <a href="mailto:breddybabureddy@gmail.com" class="btn btn-primary">Say Hello</a>
+                </div>
+                <!-- Social Links moved to Contact Section -->
+                <div class="social-links mt-4" style="justify-content: center; margin-top: 3rem;">
+                    <a href="https://www.linkedin.com/in/basi-reddy/" target="_blank"><i
+                            class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://github.com/reddybabureddy" target="_blank"><i class="fa-brands fa-github"></i></a>
+                    <a href="mailto:breddybabureddy@gmail.com"><i class="fa-solid fa-envelope"></i></a>
+                </div>
+            </div>
+        </section>
+
+        <footer class="footer">
+            <p>Designed & Built by Basireddy Reddy Babu Reddy</p>
+        </footer>
+
+    </main>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
